@@ -139,8 +139,13 @@
     [[HBPlaySoundUtil shareForPlayingSoundEffectWith:@"down.wav"] play];
     CGFloat boardWidth = SCREEN_W / (DHBoardSize + 1);
     if ([self.places[x - 1][y - 1] integerValue] == OccupyTypeEmpty) {
+        if (self.subviews.count > 0) {
+            UIImageView *prevChessImg = (UIImageView *)self.subviews.lastObject;
+            prevChessImg.image = [UIImage imageNamed:isBlack ? @"stone_white" : @"stone_black"];
+        }
+        
         UIImageView *chessImg = [UIImageView new];
-        chessImg.image = [UIImage imageNamed:isBlack?@"stone_black":@"stone_white"];
+        chessImg.image = [UIImage imageNamed:isBlack?@"stone_black_current":@"stone_white_current"];
         chessImg.bounds = CGRectMake(0, 0, boardWidth, boardWidth);
         CGFloat centerX = x * boardWidth;
         CGFloat centerY = y * boardWidth;

@@ -502,8 +502,8 @@
 				TargetAttributes = {
 					E9C9E6701CE2198700CBD1E7 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 6U6C273HYZ;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 8LEKWDYEAB;
+						ProvisioningStyle = Automatic;
 					};
 					E9C9E6891CE2198800CBD1E7 = {
 						CreatedOnToolsVersion = 7.1;
@@ -751,16 +751,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Chi Zhang (6U6C273HYZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chi Zhang (6U6C273HYZ)";
-				DEVELOPMENT_TEAM = 6U6C273HYZ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8LEKWDYEAB;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GoBangGraduationProject/Main/Gobang.pch";
 				INFOPLIST_FILE = GoBangGraduationProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LS.com.redPackets;
+				PRODUCT_BUNDLE_IDENTIFIER = LS.com.redPackets2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7439570a-1e95-4d06-a29a-14b78173033d";
-				PROVISIONING_PROFILE_SPECIFIER = 0320RedPacketPP;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -770,16 +770,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Chi Zhang (6U6C273HYZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chi Zhang (6U6C273HYZ)";
-				DEVELOPMENT_TEAM = 6U6C273HYZ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8LEKWDYEAB;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GoBangGraduationProject/Main/Gobang.pch";
 				INFOPLIST_FILE = GoBangGraduationProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LS.com.redPackets;
+				PRODUCT_BUNDLE_IDENTIFIER = LS.com.redPackets2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7439570a-1e95-4d06-a29a-14b78173033d";
-				PROVISIONING_PROFILE_SPECIFIER = 0320RedPacketPP;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

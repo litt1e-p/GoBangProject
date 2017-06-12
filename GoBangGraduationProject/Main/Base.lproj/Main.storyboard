@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9TQ-6h-arP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9TQ-6h-arP">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--大华五子棋-->
+        <!--五子棋-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -131,12 +131,12 @@
                                 <exclude reference="FD9-Cf-2eV"/>
                                 <exclude reference="aQj-eI-thX"/>
                                 <exclude reference="jQ6-yf-t9W"/>
-                                <exclude reference="EOl-qi-6SF"/>
-                                <exclude reference="IVh-yc-doH"/>
-                                <exclude reference="qDA-BG-LMK"/>
                                 <exclude reference="1Vb-ih-3NM"/>
                                 <exclude reference="RR7-fy-A4E"/>
                                 <exclude reference="SmB-B8-O1L"/>
+                                <exclude reference="EOl-qi-6SF"/>
+                                <exclude reference="IVh-yc-doH"/>
+                                <exclude reference="qDA-BG-LMK"/>
                                 <exclude reference="C4Q-Qy-Foi"/>
                                 <exclude reference="Ps2-jR-eRU"/>
                                 <exclude reference="voX-yT-73E"/>
@@ -154,19 +154,19 @@
                                 <include reference="FD9-Cf-2eV"/>
                                 <include reference="aQj-eI-thX"/>
                                 <include reference="jQ6-yf-t9W"/>
-                                <include reference="EOl-qi-6SF"/>
-                                <include reference="IVh-yc-doH"/>
-                                <include reference="qDA-BG-LMK"/>
                                 <include reference="1Vb-ih-3NM"/>
                                 <include reference="RR7-fy-A4E"/>
                                 <include reference="SmB-B8-O1L"/>
+                                <include reference="EOl-qi-6SF"/>
+                                <include reference="IVh-yc-doH"/>
+                                <include reference="qDA-BG-LMK"/>
                                 <include reference="C4Q-Qy-Foi"/>
                                 <include reference="Ps2-jR-eRU"/>
                                 <include reference="voX-yT-73E"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="大华五子棋" id="GDq-DJ-XQj"/>
+                    <navigationItem key="navigationItem" title="五子棋" id="GDq-DJ-XQj"/>
                     <connections>
                         <segue destination="Taq-cC-BuR" kind="show" identifier="ppSegue" id="VtX-6c-KJu"/>
                     </connections>
@@ -350,12 +350,12 @@
                                 <exclude reference="1ft-cg-KE3"/>
                                 <exclude reference="RQh-DH-dIf"/>
                                 <exclude reference="fTX-yk-kxg"/>
-                                <exclude reference="4C8-9T-UGJ"/>
-                                <exclude reference="D2E-UM-sdo"/>
-                                <exclude reference="fIX-He-szb"/>
                                 <exclude reference="uip-dP-0Vm"/>
                                 <exclude reference="x5c-cv-xb3"/>
                                 <exclude reference="tvP-d5-AlL"/>
+                                <exclude reference="4C8-9T-UGJ"/>
+                                <exclude reference="D2E-UM-sdo"/>
+                                <exclude reference="fIX-He-szb"/>
                                 <exclude reference="4Rl-Hs-YOi"/>
                                 <exclude reference="bYK-Ih-LgN"/>
                                 <exclude reference="h20-JT-rkR"/>
@@ -373,12 +373,12 @@
                                 <include reference="1ft-cg-KE3"/>
                                 <include reference="RQh-DH-dIf"/>
                                 <include reference="fTX-yk-kxg"/>
-                                <include reference="4C8-9T-UGJ"/>
-                                <include reference="D2E-UM-sdo"/>
-                                <include reference="fIX-He-szb"/>
                                 <include reference="uip-dP-0Vm"/>
                                 <include reference="x5c-cv-xb3"/>
                                 <include reference="tvP-d5-AlL"/>
+                                <include reference="4C8-9T-UGJ"/>
+                                <include reference="D2E-UM-sdo"/>
+                                <include reference="fIX-He-szb"/>
                                 <include reference="4Rl-Hs-YOi"/>
                                 <include reference="bYK-Ih-LgN"/>
                                 <include reference="h20-JT-rkR"/>
@@ -517,10 +517,10 @@
                                 <exclude reference="b1O-er-6ph"/>
                                 <exclude reference="1zi-Hr-wmJ"/>
                                 <exclude reference="Pyf-iP-wGh"/>
+                                <exclude reference="NzW-kn-JtP"/>
                                 <exclude reference="0dI-MT-H0B"/>
                                 <exclude reference="VtK-Jc-YtS"/>
                                 <exclude reference="gYn-PY-gUH"/>
-                                <exclude reference="NzW-kn-JtP"/>
                                 <exclude reference="8XJ-aL-NyL"/>
                                 <exclude reference="WNf-ia-SpI"/>
                                 <exclude reference="wgV-3C-4pu"/>
@@ -537,10 +537,10 @@
                                 <include reference="b1O-er-6ph"/>
                                 <include reference="1zi-Hr-wmJ"/>
                                 <include reference="Pyf-iP-wGh"/>
+                                <include reference="NzW-kn-JtP"/>
                                 <include reference="0dI-MT-H0B"/>
                                 <include reference="VtK-Jc-YtS"/>
                                 <include reference="gYn-PY-gUH"/>
-                                <include reference="NzW-kn-JtP"/>
                                 <include reference="8XJ-aL-NyL"/>
                                 <include reference="WNf-ia-SpI"/>
                                 <include reference="wgV-3C-4pu"/>

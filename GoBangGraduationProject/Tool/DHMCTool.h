@@ -22,7 +22,7 @@
 
 @property (nonatomic, strong) MCBrowserViewController *browser;
 @property (nonatomic, strong) MCSession *session;
-@property (nonatomic, assign) id<DHMCToolDelegate> delegate;
+@property (nonatomic, weak) id<DHMCToolDelegate> delegate;
 + (instancetype)tool;
 
 /**
